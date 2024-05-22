@@ -10,7 +10,7 @@ class A {
         System.out.println("Non static function: " + a + " " + b);
     }
 
-    static public void logic2() {// Static function can access only static function.
+    static public void logic2() {// Static function can access only static data.
         System.out.println("Static Function: " + c);
 
     }
